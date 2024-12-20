@@ -73,7 +73,10 @@ button {
     font-size: 16px;
     margin-bottom: 10px;
 }
-
+.name-input button {
+    width: 150px;
+    margin-bottom: 50px;
+}
 button:hover {
     background: #0056b3;
 }
@@ -83,11 +86,13 @@ button:hover {
 }
 
 .name-input {
-    margin-bottom: 10px;
+    display: inline-block;
+    
 }
 
 .name-input input {
-    width: calc(25% - 10px);
+    /*flex: 1 1 calc(25% - 10px);*/ 
+    width: calc(20% - 10px);
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
